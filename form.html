@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gun Control</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+
+    <script>
+function check() {
+  var bool1 = false;
+  var bool2 = false;
+  var bool3 = false;
+  var bool4 = false;
+  var e = document.getElementById("age");
+  var age = e.options[e.selectedIndex].text;
+  var e1 = document.getElementById("state");
+  var state = e1.options[e.selectedIndex].text;
+  var e2 = document.getElementById("mental illness");
+  var mental-illness = e2.options[e2.selectedIndex].text;
+  var e3 = document.getElementById("reason");
+  var reason = e3.options[e3.selectedIndex].text;
+  var e4 = document.getElementById("place");
+  var safe = e4.options[e4.selectedIndex].text;
+  var e5 = document.getElementById("license");
+  var gun = e5.options[e5.selectedIndex].text;
+       
+  if (state === "Alabama" && age === "Younger than 18"){
+    bool1 = false;
+      }
+    else if (state === "Alabama" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Alabama" && age === "21 or older"){
+      bool1 = true;
+    }  else if (state === "Arkansas" && age === "Younger than 18"){
+       bool1 = false;
+      }
+    else if (state === "Arkansas" && age === "Between 18 and 21"){
+       bool1 = true;
+    } else if (state === "Arkansas" && age === "21 or older"){
+        bool1 = true;
+    }
+   else if (state === "Alaska" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Alaska" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Alaska" && age === "21 or older"){
+      bool1 = true;
+    }
+     else if (state === "Arizona" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Arizona" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Arizona" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "California" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "California" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "California" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "Colorado" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Colorado" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Colorado" && age === "21 or older"){
+      bool1 = true;
+    } 
+      else if (state === "Connecticut" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Connecticut" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Connecticut" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "Delaware" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Delaware" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Delaware" && age === "21 or older"){
+      bool1 = true;
+    }
+       else if (state === "District of Columbia" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "District of Columbia" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "District of Columbia" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Florida" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Florida" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Florida" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Georgia" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Georgia" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Georgia" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "Hawaii" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Hawaii" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Hawaii" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Idaho" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Idaho" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Idaho" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Illinois" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Illinois" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Illinois" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Indiana" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Indiana" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Indiana" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "Iowa" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Iowa" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Iowa" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "Kansas" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Kansas" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Kansas" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "Kentucky" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Kentucky" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Kentucky" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "Louisiana" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Louisiana" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Louisiana" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Maine" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Maine" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Maine" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Maryland" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Maryland" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Maryland" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Massachusetts" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Massachusetts" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Massachusetts" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Michigan" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Michigan" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Michigan" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "Minnesota" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Minnesota" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Minnesota" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "Mississippi" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Mississippi" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Mississippi" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Missouri" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Missouri" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Missouri" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "Montana" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Montana" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Montana" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "Nebraska" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Nebraska" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Nebraska" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "Nevada" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Nevada" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Nevada" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "New Hampshire" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "New Hampshire" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "New Hampshire" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "New Jersey" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "New Jersey" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "New Jersey" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "New Mexico" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "New Mexico" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "New Mexico" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "New York" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "New York" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "New York" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "North Carolina" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "North Carolina" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "North Carolina" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "North Dakota" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "North Dakota" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "North Dakota" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "Ohio" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Ohio" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Ohio" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "Oklahoma" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Oklahoma" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Oklahoma" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "Oregon" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Oregon" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Oregon" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "Pennslyvania" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Pennslyvania" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "Pennslyvania" && age === "21 or older"){
+      bool1 = true;
+    }
+    else if (state === "Rhode Island" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "Rhode Island" && age === "Between 18 and 21"){
+      bool1 = false;
+    } else if (state === "Rhode Island" && age === "21 or older"){
+      bool1 = true;
+    }
+        else if (state === "South Carolina" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "South Carolina" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "South Carolina" && age === "21 or older"){
+      bool1 = true;
+    }
+      else if (state === "South Dakota" && age === "Younger than 18"){
+        bool1 = false;
+      }
+    else if (state === "South Dakota" && age === "Between 18 and 21"){
+      bool1 = true;
+    } else if (state === "south Dakota" && age === "21 or older"){
+      bool1 = true;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  if (bool1 === true) {
+        alert("Can buy a gun");
+      }
+      else {
+        alert("cannot buy a gun");}
+
+
+  if (mental-illness === "Yes") {
+    bool2 = true;
+      }
+  else {
+    bool2 = false;
+  }
+      
+  if (reason === "hunt" || reason === "protection" || reason === "collect") {
+    bool3 = true;
+      }
+  else {
+    bool3 = false;
+  }
+      
+   if (safe === "Yes") {
+    bool4 = true;
+      }
+  else {
+    bool4 = false;
+  }
+      
+  if (license === "no") {
+    bool5 = false;
+      }
+  else {
+    bool5 = true;
+  }
+  if (bool1 === true && bool2 === true && bool3 === true && bool4 === true && bool5 === true) {
+    alert(You can buy a gun!) 
+  } 
+  else {
+    alert(You cannot buy a gun!)
+  }
+}
+</script>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="https://gun-control.procon.org/">link 1</a>
+      <a href="Brazil.html">Brazil</a>
+      <a href="Australia.html">Australia</a>
+      <a href="us.html">United States</a>
+      <a href="Jamaica.html">Jamaica</a>
+      <a href="Mexico.html">Mexico</a>
+    </div>
+    </div>
+
+
+<form action="">
+  Age:<br>
+  <!--input id="age" type="text" name="age" value=""-->
+  <select name="age" id="age">
+  <option value="<18">Younger than 18</option>
+  <option value=">21">21 or older</option>
+  <option value="Between 18 and 21">Between 18 and 21</option>
+  </select>
+  <br><br>
+  State:<br>
+  <select name="state" id="state">
+  <option value="" selected="selected">Select a State</option>
+  <option value="AL">Alabama</option>
+  <option value="AK">Alaska</option>
+  <option value="AZ">Arizona</option>
+  <option value="AR">Arkansas</option>
+  <option value="CA">California</option>
+  <option value="CO">Colorado</option>
+  <option value="CT">Connecticut</option>
+  <option value="DE">Delaware</option>
+  <option value="DC">District Of Columbia</option>
+  <option value="FL">Florida</option>
+  <option value="GA">Georgia</option>
+  <option value="HI">Hawaii</option>
+  <option value="ID">Idaho</option>
+  <option value="IL">Illinois</option>
+  <option value="IN">Indiana</option>
+  <option value="IA">Iowa</option>
+  <option value="KS">Kansas</option>
+  <option value="KY">Kentucky</option>
+  <option value="LA">Louisiana</option>
+  <option value="ME">Maine</option>
+  <option value="MD">Maryland</option>
+  <option value="MA">Massachusetts</option>
+  <option value="MI">Michigan</option>
+  <option value="MN">Minnesota</option>
+  <option value="MS">Mississippi</option>
+  <option value="MO">Missouri</option>
+  <option value="MT">Montana</option>
+  <option value="NE">Nebraska</option>
+  <option value="NV">Nevada</option>
+  <option value="NH">New Hampshire</option>
+  <option value="NJ">New Jersey</option>
+  <option value="NM">New Mexico</option>
+  <option value="NY">New York</option>
+  <option value="NC">North Carolina</option>
+  <option value="ND">North Dakota</option>
+  <option value="OH">Ohio</option>
+  <option value="OK">Oklahoma</option>
+  <option value="OR">Oregon</option>
+  <option value="PA">Pennsylvania</option>
+  <option value="RI">Rhode Island</option>
+  <option value="SC">South Carolina</option>
+  <option value="SD">South Dakota</option>
+  <option value="TN">Tennessee</option>
+  <option value="TX">Texas</option>
+  <option value="UT">Utah</option>
+  <option value="VT">Vermont</option>
+  <option value="VA">Virginia</option>
+  <option value="WA">Washington</option>
+  <option value="WV">West Virginia</option>
+  <option value="WI">Wisconsin</option>
+  <option value="WY">Wyoming</option>
+  </select>
+  <br><br>
+  Do you have a history of mental illness:<br>
+  <select  name="mental illness" id= "mental illness">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+  <br><br>
+  What is your reason for buying a gun: <br>
+  <select name="reason" id= "reason">
+    <option value="hunt">For hunting animals</option>
+    <option value="protection">For self-defense</option>
+    <option value="collect">As part of a collection</option>
+    <option value="revenge">For revenge</option>
+    <option value="leisure">For leisure</option>   
+  </select>
+  <br><br>
+  Do you have a safe place to keep the gun:<br>
+  <select name="safe" id="place">
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+  <br><br>
+  Do you own a gun or hunting license:<br>
+  <select name="gun" id="license">
+    <option value="gun">Yes, I own a gun license.</option>   
+    <option value="hunt">Yes, I own a hunting license.</option> 
+    <option value="both">Yes, I own a gun and hunting license.</option> 
+    <option value="no">No, I don't own either.</option> 
+  </select>
+  <br><br>
+  <input type="button" value="Submit" onclick="check()">
+</form> 
+</body>
+    </html>
