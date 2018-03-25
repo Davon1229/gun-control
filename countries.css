@@ -1,0 +1,252 @@
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25pt;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+#brazil {
+  background-image:url('https://fthmb.tqn.com/KJ8AI9muTXwoXIOGbxas91P2SnY=/1800x1270/filters:fill(auto,1)/brazilflag-568419fd3df78ccc15cfe0fa.jpg');
+}
+#us {
+  color:#3e7767;
+  background-image:url('http://clipground.com/images/american-flag-clipart-11.jpg');
+}
+
+#Australia {
+  
+  color:#0cf700;
+  background-image:url();
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 1000px
+  
+}
+
+body {
+  
+  background-image: url();
+  background-repeat: no-repeat;
+  height: 700px;
+  background-position: center;
+}
+
+ul {
+  list-style-type: square;
+  left: 150px;
+}
+
+li {
+  font-size: 25pt;
+  color: purple;
+}
+
+p1 {
+  color: yellow;
+  font-size: 30pt; 
+} 
+
+p2 {
+  color: purple;
+  font-size: 30pt;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40pt;
+}
+
+h2 {
+  color: green;
+  font-size: 40pt;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*australia */
+.parallax {
+    /* The image used */
+    background-image: url("https://news.unclesamsmisguidedchildren.com/wp-content/uploads/2018/02/remote.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*brazil */
+.parallax2 {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/teepublic/image/private/s--_rGq4327--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1477883609/production/designs/761984_1.jpg");
+
+    /* Set a specific height */
+    height: 655px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*u.s*/
+.parallax3 {
+    /* The image used */
+    background-image: url("http://www.erickontheradio.com/wp-content/uploads/2015/09/iStock_000046040236_Large.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Jamaica*/
+.parallax4 {
+    /* The image used */
+    background-image: url("http://wallpaper4me.com/images/wallpapers/jamaica-139647.jpeg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Mexico*/
+.parallax5 {
+    /* The image used */
+    background-image: url("http://www.freelargeimages.com/wp-content/uploads/2014/12/Mexico_flag-2.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
